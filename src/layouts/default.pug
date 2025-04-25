@@ -1,0 +1,13 @@
+include ../mixins/ButtonLink.pug
+
+block variables
+  - var title = "Yaspa"
+
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+
+    title= title
+  body
+    block content

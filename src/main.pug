@@ -1,0 +1,10 @@
+extends ./layouts/default.pug
+
+block variables
+  - var title = "Home"
+
+block content
+  h1 Home
+  +ButtonLink("About", "/about/")
+
+  script(type="module" src="./main.ts")
