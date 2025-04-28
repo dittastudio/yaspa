@@ -1,4 +1,4 @@
-include ../mixins/ButtonLink.pug
+include ./mixins/ButtonLink.pug
 
 block variables
   - var title = "Yaspa"
@@ -11,3 +11,5 @@ html
     title= title
   body
     block content
+
+    script(type="module" src="/app.ts")
