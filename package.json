@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.4",
     "@vituum/vite-plugin-pug": "^1.1.0",
+    "tailwindcss": "^4.1.4",
     "vituum": "^1.2.0"
   }
 }
