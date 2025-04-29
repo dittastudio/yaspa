@@ -11,7 +11,6 @@ export default {
       },
     }),
   ],
-
   build: {
     sourcemap: false,
     // cssCodeSplit: false,

@@ -1,3 +1,5 @@
+import { test } from "./helpers";
+
 export default function main() {
-  console.log("Contact");
+  test("Contact");
 }
