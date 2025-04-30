@@ -14,11 +14,15 @@ export default {
     }),
   ],
   build: {
+    modulePreload: {
+      polyfill: false,
+    },
+    emptyOutDir: true,
     sourcemap: false,
     // cssCodeSplit: false,
     cssMinify: true,
     ssr: false,
-    minify: false,
+    minify: "esbuild",
     rollupOptions: {
       output: {
         manualChunks: (id) => (id.includes("node_modules") ? "vendor" : "app"),

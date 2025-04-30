@@ -1,5 +1,5 @@
 import { test } from "./helpers";
 
-export default function main() {
+export default function Contact() {
   test("Contact");
 }
