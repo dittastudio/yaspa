@@ -1,4 +1,12 @@
 extends /layouts/app.pug
 
 block content
-  h2 Index
+  h2(class="text-3xl") Index
+
+  p Card
+
+  +card('Card Title')
+    p This is a card with some content.
+    p You can put anything you want inside the card.
+    p It can be a paragraph, an image, or even another card.
+    p Just make sure to keep it simple and clean.
