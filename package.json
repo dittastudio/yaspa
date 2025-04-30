@@ -12,10 +12,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.12.0",
-    "@tailwindcss/vite": "^4.1.4",
+    "@tailwindcss/vite": "^4.1.5",
     "@vituum/vite-plugin-pug": "^1.1.0",
     "eslint": "^9.25.1",
-    "tailwindcss": "^4.1.4",
+    "tailwindcss": "^4.1.5",
     "vituum": "^1.2.0"
   }
 }
