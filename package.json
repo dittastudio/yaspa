@@ -1,16 +1,20 @@
 {
   "name": "yaspa",
-  "version": "0.0.1",
   "type": "module",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^4.12.0",
     "@tailwindcss/vite": "^4.1.4",
     "@vituum/vite-plugin-pug": "^1.1.0",
+    "eslint": "^9.25.1",
     "tailwindcss": "^4.1.4",
     "vituum": "^1.2.0"
   }

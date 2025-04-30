@@ -1,5 +1,5 @@
-import { test } from "./helpers";
+import { test } from './helpers'
 
 export default function Contact() {
-  test("Contact");
+  test('Contact')
 }

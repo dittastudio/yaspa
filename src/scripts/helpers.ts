@@ -1,5 +1,5 @@
 function test(message: string) {
-  console.log(`Test: ${message}`);
+  console.log(`Test: ${message}`)
 }
 
-export { test };
+export { test }

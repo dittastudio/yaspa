@@ -1,7 +1,7 @@
-import About from "./about";
-import Contact from "./contact";
+import About from './about'
+import Contact from './contact'
 
-About();
-Contact();
+About()
+Contact()
 
-console.log("Hello, world!");
+console.log('Hello, world!')
